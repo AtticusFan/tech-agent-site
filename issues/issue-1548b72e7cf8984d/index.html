@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer"><meta name="description" content="每兩天精選 AI 技術、Agent、RAG、資安與治理資訊，附可查證來源。">
+<title>AI 技術觀測報｜2026.11.18</title><link rel="stylesheet" href="../../assets/style.css"><script defer src="../../assets/app.js"></script></head>
+<body><div class="paper"><header class="masthead"><div class="utility"><span>獨立選題 · 來源可查</span><span>AGENTS / MODELS / SECURITY / GOVERNANCE</span></div>
+<p class="wordmark">THE AI OBSERVER</p><h1><a href="../../index.html">AI 技術觀測報</a></h1><div class="edition-line"><span>每兩天一期 · 繁體中文 / English</span><time>2026.11.18 01:00 台北</time><span>EDITION 7CF8984D</span></div></header>
+<nav class="nav" aria-label="主要導覽"><a href="../../releases/index.html">模型發布追蹤</a><a href="#latest">本期精選</a><a href="#archive">歷期報紙</a><a href="#about">編輯說明</a><span class="nav-note">READ LESS. KNOW WHAT MATTERS.</span></nav>
+<main><section class="issue-intro" id="latest"><div><p class="eyebrow">THE BRIEFING / 本期觀測</p><h2>掌握變化，讀懂依據。</h2><p>聚焦值得知道的技術進展、安全風險與治理變化。</p></div><div class="issue-stats"><div><strong>05</strong><span>則精選</span></div><div><strong>02</strong><span>則必讀</span></div></div></section>
+<div class="coverage">蒐集期間 2026.11.18 00:57 — 2026.11.18 00:59 · 回查 7 天；來源發布日期另列。</div><details class="coverage-notes"><summary>本期資料涵蓋限制</summary><ul><li>OpenAI Newsroom：partial</li></ul></details>
+<form class="filters" role="search"><label for="search">搜尋本期</label><input id="search" type="search" placeholder="標題、技術名詞或來源" autocomplete="off"><label for="topic">主題</label><select id="topic"><option value="all">所有主題</option><option value="security">AI 資安</option><option value="governance">AI 治理</option><option value="rag">RAG</option><option value="agents">Agent 與開發</option><option value="models">模型與產品</option><option value="research">研究與實作</option></select><button id="reset" type="button">重設</button></form>
+<p id="filter-result" class="filter-result" role="status" aria-live="polite">共 5 則文章</p><section class="stories" aria-label="本期文章"><article class="story lead-story" data-topic="models" data-search="以結構化表示理解大型語言模型推理失敗 understanding failures in llm reasoning by learning structured representations of chain-of-thought cot2graph models reasoning traces as dependency graphs to predict quality. 模型與產品 arxiv cs.cl" id="story-6f3a37a6cb5a63295b57">
+      <div class="story-kicker"><span class="story-number">01</span><span>模型與產品</span><span class="tag essential">本期必讀</span></div>
+      <h2>以結構化表示理解大型語言模型推理失敗</h2><p class="original-title" lang="en">Understanding Failures in LLM Reasoning by Learning Structured Representations of Chain-of-Thought</p>
+      <div class="claim-text"><p>CoT2Graph 將思考鏈表示為有向依賴圖，捕捉回溯、分支與子任務合併。</p><p>摘要稱圖形訊號預測答案正確性優於既有樹狀方法與長度基準。</p></div>
+      <aside class="why"><strong>為何入選</strong><p>這是推論：推論：將推理評估從序列長度延伸到依賴結構，可能為錯誤預測與候選答案選擇提供新的診斷訊號。</p></aside>
+      <p class="takeaway" lang="en"><span>EN /</span> CoT2Graph models reasoning traces as dependency graphs to predict quality.</p>
+      <details><summary>證據與限制</summary><p>僅讀取預印本摘要；未核驗模型、資料集、比較基準與效果是否可重現。</p><p class="evidence-label">僅閱讀摘要 · 預印本・審查狀態未確認</p><blockquote>represents CoT traces as directed dependency graphs</blockquote><blockquote>graph-based signals better predict</blockquote></details>
+      <footer class="source-line"><a href="https://arxiv.org/abs/2611.18611" target="_blank" rel="noopener noreferrer">arXiv cs.CL ↗</a><span>發布 2026.11.17</span></footer>
+    </article><article class="story lead-story" data-topic="agents" data-search="mcp 工具名稱與提供者身分綁定不足的測量研究 when tool names are not identities: measuring provider misbinding in mcp-based ai agents mcp tool metadata may not reliably bind a tool to its legitimate provider. agent 與開發 arxiv cs.cr" id="story-ed636a10bf61a76db570">
+      <div class="story-kicker"><span class="story-number">02</span><span>Agent 與開發</span><span class="tag essential">本期必讀</span></div>
+      <h2>MCP 工具名稱與提供者身分綁定不足的測量研究</h2><p class="original-title" lang="en">When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents</p>
+      <div class="claim-text"><p>研究將合法提供者請求被導向攻擊者工具的情況定義為工具提供者誤綁定。</p><p>研究指出，名稱碰撞、任務相符描述與相容綱要同時存在時，誤綁定風險最明顯。</p></div>
+      <aside class="why"><strong>為何入選</strong><p>這是推論：推論：MCP 工具選擇若缺乏可驗證的提供者身分，可能把看似正常的工具呼叫導向攻擊者控制的服務。</p></aside>
+      <p class="takeaway" lang="en"><span>EN /</span> MCP tool metadata may not reliably bind a tool to its legitimate provider.</p>
+      <details><summary>證據與限制</summary><p>僅讀取預印本摘要；實驗在受控 MCP 環境進行，未證明所有實際部署皆有相同風險。</p><p class="evidence-label">僅閱讀摘要 · 預印本・審查狀態未確認</p><blockquote>tool-provider misbinding</blockquote><blockquote>exact-name collision, task-aligned description</blockquote></details>
+      <footer class="source-line"><a href="https://arxiv.org/abs/2611.21577" target="_blank" rel="noopener noreferrer">arXiv cs.CR ↗</a><span>發布 2026.11.17</span></footer>
+    </article><article class="story " data-topic="security" data-search="bitbypass：以位元串流偽裝繞過對齊模型 bitbypass: a new direction in jailbreaking aligned large language models with bitstream camouflage bitbypass investigates bitstream camouflage as a black-box jailbreak technique. ai 資安 arxiv cs.cr" id="story-3fdbf4f9b178be4c802b">
+      <div class="story-kicker"><span class="story-number">03</span><span>AI 資安</span></div>
+      <h2>BitBypass：以位元串流偽裝繞過對齊模型</h2><p class="original-title" lang="en">BitBypass: A New Direction in Jailbreaking Aligned Large Language Models with Bitstream Camouflage</p>
+      <div class="claim-text"><p>研究提出以連字號分隔的位元串流偽裝，作為黑箱越獄攻擊。</p><p>摘要稱該方法在五個模型上可繞過安全對齊並誘發不安全內容。</p></div>
+      <aside class="why"><strong>為何入選</strong><p>這是推論：推論：若所述攻擊在不同模型上成立，安全評估不應只聚焦傳統提示工程形式，也需涵蓋資料表示層的輸入轉換。</p></aside>
+      <p class="takeaway" lang="en"><span>EN /</span> BitBypass investigates bitstream camouflage as a black-box jailbreak technique.</p>
+      <details><summary>證據與限制</summary><p>僅讀取預印本摘要；研究結果尚未經獨立驗證，且攻擊細節與實際防禦成本未完整呈現。</p><p class="evidence-label">僅閱讀摘要 · 預印本・審查狀態未確認</p><blockquote>hyphen-separated bitstream camouflage</blockquote><blockquote>bypassing their safety alignment</blockquote></details>
+      <footer class="source-line"><a href="https://arxiv.org/abs/2506.02479" target="_blank" rel="noopener noreferrer">arXiv cs.CR ↗</a><span>發布 2026.11.17</span></footer>
+    </article><article class="story " data-topic="security" data-search="enisa 示警漏洞利用速度與供應鏈依賴風險 歐盟網路安全局示警漏洞公開後數分鐘內恐遭利用，ai與供應鏈依賴加劇資安風險 enisa highlights faster exploitation and systemic risks from supplier dependencies. ai 資安 ithome" id="story-40868db9f48389b1e724">
+      <div class="story-kicker"><span class="story-number">04</span><span>AI 資安</span></div>
+      <h2>ENISA 示警漏洞利用速度與供應鏈依賴風險</h2><p class="original-title" lang="en">歐盟網路安全局示警漏洞公開後數分鐘內恐遭利用，AI與供應鏈依賴加劇資安風險</p>
+      <div class="claim-text"><p>報導指出，部分大規模攻擊可在漏洞公開後數天、數小時甚至數分鐘內展開。</p><p>ENISA 也關注企業對雲端、軟體供應商與第三方系統的依賴風險。</p></div>
+      <aside class="why"><strong>為何入選</strong><p>這是推論：推論：漏洞公開到遭利用的時間縮短，會提高修補排序、資產盤點與跨組織情報交換的營運壓力。</p></aside>
+      <p class="takeaway" lang="en"><span>EN /</span> ENISA highlights faster exploitation and systemic risks from supplier dependencies.</p>
+      <details><summary>證據與限制</summary><p>此篇為 iThome 二手報導，未直接讀取 ENISA 報告；摘要未提供個別漏洞或事件的驗證資料。</p><p class="evidence-label">已擷取網頁文字 · 二手報導</p><blockquote>甚至數分鐘內利用漏洞</blockquote><blockquote>企業對外部技術與服務的依賴</blockquote></details>
+      <footer class="source-line"><a href="https://www.ithome.com.tw/news/180493" target="_blank" rel="noopener noreferrer">iThome ↗</a><span>發布 日期未確認</span></footer>
+    </article><article class="story " data-topic="security" data-search="silentair 疑濫用電信互連攔截通話與簡訊 【資安日報】11月17日，國家級駭客組織silentair鎖定臺灣等十多個國家的手機用戶，濫用電信訊號攔截簡訊與通話 silentair is reported to abuse telecom interconnection and silent sms for surveillance. ai 資安 ithome" id="story-0671ed41fcad32c95145">
+      <div class="story-kicker"><span class="story-number">05</span><span>AI 資安</span></div>
+      <h2>SilentAir 疑濫用電信互連攔截通話與簡訊</h2><p class="original-title" lang="en">【資安日報】11月17日，國家級駭客組織SilentAir鎖定臺灣等十多個國家的手機用戶，濫用電信訊號攔截簡訊與通話</p>
+      <div class="claim-text"><p>報導稱 SilentAir 攻擊範圍涵蓋臺灣在內十多個國家，目標包括政治人物與政府高階官員。</p><p>報導稱攻擊者大量使用不會在手機顯示或觸發通知的無聲簡訊。</p></div>
+      <aside class="why"><strong>為何入選</strong><p>這是推論：推論：電信互連與無聲簡訊若遭濫用，可能繞過終端通知並影響高價值帳號的簡訊驗證。</p></aside>
+      <p class="takeaway" lang="en"><span>EN /</span> SilentAir is reported to abuse telecom interconnection and silent SMS for surveillance.</p>
+      <details><summary>證據與限制</summary><p>此篇為 iThome 二手整理，且歸因為電信資安業者 Enea 的揭露；未有獨立鑑識資料。</p><p class="evidence-label">已擷取網頁文字 · 二手報導</p><blockquote>攻擊範圍涵蓋臺灣在內十多個國家</blockquote><blockquote>不會在手機顯示或觸發通知</blockquote></details>
+      <footer class="source-line"><a href="https://www.ithome.com.tw/news/180566" target="_blank" rel="noopener noreferrer">iThome ↗</a><span>發布 日期未確認</span></footer>
+    </article></section><p id="empty" class="empty" hidden>本期沒有符合條件的文章。</p>
+<section id="archive" class="archive"><div class="section-heading"><h2>歷期報紙</h2><span>THE ARCHIVE</span></div><ol><li><a href="../../issues/issue-1548b72e7cf8984d/index.html"><span>2026.11.18</span><strong>以結構化表示理解大型語言模型推理失敗</strong><small>5 則</small></a></li><li><a href="../../issues/issue-342d6b24ca037172/index.html"><span>2026.11.16</span><strong>Anthropic測試Claude進行真實電子硬體設計</strong><small>3 則</small></a></li><li><a href="../../issues/issue-f36139daa19f6c95/index.html"><span>2026.11.13</span><strong>大型語言模型疼痛管理偏差審計：未發現顯著差異，但仍須注意不確定性</strong><small>6 則</small></a></li><li><a href="../../issues/issue-fa1ba8828e40ee83/index.html"><span>2026.11.11</span><strong>可追溯證據的臨床推理基準揭示模型限制</strong><small>8 則</small></a></li><li><a href="../../issues/issue-63ee9eb98093991f/index.html"><span>2026.11.09</span><strong>LLM代理授權漂移：多步工具使用可能越界</strong><small>3 則</small></a></li><li><a href="../../issues/issue-b9c5dd594de4fddd/index.html"><span>2026.11.07</span><strong>GPT-6 Cyber：漏洞研究能力提升，評測結果須連同授權範圍閱讀</strong><small>10 則</small></a></li><li><a href="../../issues/issue-d41582dafcc8df37/index.html"><span>2026.11.07</span><strong>Anthropic公布可驗證推論研究進展</strong><small>7 則</small></a></li><li><a href="../../issues/issue-7452344c1f4f3ecd/index.html"><span>2026.11.07</span><strong>GPT-6 Cyber：漏洞研究能力提升，評測結果須連同授權範圍閱讀</strong><small>5 則</small></a></li></ol></section>
+<section id="about" class="about"><p class="eyebrow">EDITORIAL NOTE</p><h2>每一則，保留來源與限制。</h2><p>本期由 AI 核對證據與摘要，未經逐則人工審閱。</p><p>每期以 10 則為目標；不足時不湊數、不捏造文章。可納入具實質資訊的新聞稿，廠商宣稱標示為發布者主張。</p><p>以研究、開發與安全決策為選題依據。發布者主張、預印本與閱讀範圍會分別標示；分析段落標為推論。摘要經 AI 協助整理，仍須核對原文，無法保證完全無誤。</p><p>發現內容錯誤時，會於後續期刊標示更正與追蹤。未確認日期不推算為事實。</p></section></main>
+<footer class="paper-footer"><strong>AI 技術觀測報</strong><span>原始內容與權利屬各來源；本站提供摘要、分析與原文連結。</span><a href="#latest">回到本期 ↑</a></footer></div></body></html>

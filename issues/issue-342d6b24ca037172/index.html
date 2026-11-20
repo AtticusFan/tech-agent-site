@@ -1,39 +1,58 @@
 <!doctype html>
 <html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; font-src data:; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="no-referrer"><meta name="description" content="每兩天精選 AI 技術、Agent、RAG、資安與治理資訊，附可查證來源。">
-<title>AI 技術觀測報｜2026.11.16</title><link rel="stylesheet" href="../../assets/style.css"><script defer src="../../assets/app.js"></script></head>
-<body><div class="paper"><header class="masthead"><div class="utility"><span>獨立選題 · 來源可查</span><span>AGENTS / MODELS / SECURITY / GOVERNANCE</span></div>
-<p class="wordmark">THE AI OBSERVER</p><h1><a href="../../index.html">AI 技術觀測報</a></h1><div class="edition-line"><span>每兩天一期 · 繁體中文 / English</span><time>2026.11.16 01:06 台北</time><span>EDITION CA037172</span></div></header>
-<nav class="nav" aria-label="主要導覽"><a href="../../releases/index.html">模型發布追蹤</a><a href="#latest">本期精選</a><a href="#archive">歷期報紙</a><a href="#about">編輯說明</a><span class="nav-note">READ LESS. KNOW WHAT MATTERS.</span></nav>
-<main><section class="issue-intro" id="latest"><div><p class="eyebrow">THE BRIEFING / 本期觀測</p><h2>掌握變化，讀懂依據。</h2><p>聚焦值得知道的技術進展、安全風險與治理變化。</p></div><div class="issue-stats"><div><strong>03</strong><span>則精選</span></div><div><strong>03</strong><span>則必讀</span></div></div></section>
-<div class="coverage">蒐集期間 2026.11.16 01:03 — 2026.11.16 01:06 · 回查 7 天；來源發布日期另列。</div><details class="coverage-notes"><summary>本期資料涵蓋限制</summary><ul><li>OpenAI Newsroom：partial</li></ul></details>
-<form class="filters" role="search"><label for="search">搜尋本期</label><input id="search" type="search" placeholder="標題、技術名詞或來源" autocomplete="off"><label for="topic">主題</label><select id="topic"><option value="all">所有主題</option><option value="security">AI 資安</option><option value="governance">AI 治理</option><option value="rag">RAG</option><option value="agents">Agent 與開發</option><option value="models">模型與產品</option><option value="research">研究與實作</option></select><button id="reset" type="button">重設</button></form>
-<p id="filter-result" class="filter-result" role="status" aria-live="polite">共 3 則文章</p><section class="stories" aria-label="本期文章"><article class="story lead-story" data-topic="models" data-search="anthropic測試claude進行真實電子硬體設計 testing claude on real-world electronics design anthropic reports that claude fable 5.2 designed and prototyped three electronic devices. 模型與產品 anthropic research" id="story-0c77ff5e2b269a81b0d4">
-      <div class="story-kicker"><span class="story-number">01</span><span>模型與產品</span><span class="tag essential">本期必讀</span></div>
-      <h2>Anthropic測試Claude進行真實電子硬體設計</h2><p class="original-title" lang="en">Testing Claude on real-world electronics design</p>
+<title>AI Tech Observer｜2026.11.16</title><link rel="stylesheet" href="../../assets/style.css"><script defer src="../../assets/app.js"></script></head>
+<body><a class="skip-link" href="#latest">跳到本期文章</a><div class="paper"><header class="masthead">
+<h1 lang="en"><a href="../../index.html">AI Tech Observer</a></h1></header>
+<nav class="nav" aria-label="主要導覽"><a href="../../index.html">本期精選</a><a href="../../releases/index.html">模型發布</a><a href="../../archive/index.html">歷期報紙</a></nav>
+<main><section id="latest" aria-labelledby="latest-title" tabindex="-1"><header class="section-heading reading-heading issue-heading"><h2 id="latest-title">期刊精選</h2>
+<p class="reading-meta"><time datetime="2026-11-15T17:06:40.585611+00:00"><span class="meta-full">2026.11.16 01:06（台北）</span><span class="meta-short">11.16</span></time> · 3 則 · AI 核對<span class="meta-coverage"> · 蒐集 01:03–01:06 · 回查 7 天</span></p></header>
+<details class="coverage-notes"><summary>蒐集與來源</summary>
+<p>期刊時間 2026.11.16 01:06（台北）</p>
+<p>蒐集 2026.11.16 01:03 至 2026.11.16 01:06 · 回查 7 天</p><ul><li>OpenAI Newsroom：partial</li></ul>
+<search class="source-search" hidden><label for="source-query">搜尋本期來源</label>
+<input id="source-query" type="search" placeholder="來源名稱或文章標題" spellcheck="false" autocorrect="off" autocapitalize="none" enterkeyhint="search">
+<p id="source-search-status" role="status"></p></search>
+<ul id="source-index" class="source-index"><li data-original-title="Testing Claude on real-world electronics design"><a href="#story-0c77ff5e2b269a81b0d4">Anthropic測試Claude進行真實電子硬體設計</a><span>Anthropic Research</span></li><li data-original-title="LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B"><a href="#story-84ec87286cb35a64f463">IBM Granite推出採用LLMON結構化格式的預覽模型</a><span>Hugging Face Blog</span></li><li data-original-title="How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith"><a href="#story-7c8506fea817bcb6cf08">Workday以LangGraph與LangSmith建立企業級AI代理平臺</a><span>LangChain Blog</span></li></ul></details>
+<div class="stories"><article class="story lead-story" id="story-0c77ff5e2b269a81b0d4">
+      <div class="story-kicker"><span>模型與產品</span><span class="tag essential">本期必讀</span></div>
+      <h3>Anthropic測試Claude進行真實電子硬體設計</h3><p class="original-title" lang="en">Testing Claude on real-world electronics design</p>
       <div class="claim-text"><p>Anthropic表示，Claude Fable 5.2完成三種電子裝置的設計，並由人類工程師製作出無須修改電路的原型。</p><p>Anthropic表示，Fable 5.2在其PCB Gym基準測試中獲得69%，高於Fable 5的25%。</p></div>
-      <aside class="why"><strong>為何入選</strong><p>這是推論：推論：若能從電路布局延伸至原型製作，AI輔助硬體工程的驗證流程可能出現新變化，但仍須關注量產與認證要求。</p></aside>
-      <p class="takeaway" lang="en"><span>EN /</span> Anthropic reports that Claude Fable 5.2 designed and prototyped three electronic devices.</p>
-      <details><summary>證據與限制</summary><p>內容為Anthropic與合作方的測試報告；來源指出這些仍是早期原型，持續使用表現及商業認證結果尚不明，且未提供獨立驗證。</p><p class="evidence-label">已擷取網頁文字 · 發布者主張</p><blockquote>prototypes that worked without any fixes</blockquote><blockquote>Fable 5.2 scored 69%</blockquote></details>
-      <footer class="source-line"><a href="https://www.anthropic.com/research/claude-electronics-design" target="_blank" rel="noopener noreferrer">Anthropic Research ↗</a><span>發布 2026.11.09</span></footer>
-    </article><article class="story lead-story" data-topic="models" data-search="ibm granite推出採用llmon結構化格式的預覽模型 llmon: an llm-native markup language, now in granite 4.1 3b and 8b ibm granite previews llmon models designed to separate instructions from data. 模型與產品 hugging face blog" id="story-84ec87286cb35a64f463">
-      <div class="story-kicker"><span class="story-number">02</span><span>模型與產品</span><span class="tag essential">本期必讀</span></div>
-      <h2>IBM Granite推出採用LLMON結構化格式的預覽模型</h2><p class="original-title" lang="en">LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B</p>
+      <aside class="why"><strong>為何入選</strong><p>這是推論：若能從電路布局延伸至原型製作，AI輔助硬體工程的驗證流程可能出現新變化，但仍須關注量產與認證要求。</p></aside>
+      <p class="takeaway" lang="en">Anthropic reports that Claude Fable 5.2 designed and prototyped three electronic devices.</p>
+      <footer class="source-line">
+        <details class="story-evidence"><summary aria-label="證據與限制">證據<span class="meta-full">與限制</span></summary>
+        <p>內容為Anthropic與合作方的測試報告；來源指出這些仍是早期原型，持續使用表現及商業認證結果尚不明，且未提供獨立驗證。</p><p class="evidence-label">已擷取網頁文字 · 發布者主張</p><blockquote cite="https://www.anthropic.com/research/claude-electronics-design">prototypes that worked without any fixes</blockquote><blockquote cite="https://www.anthropic.com/research/claude-electronics-design">Fable 5.2 scored 69%</blockquote>
+        <p class="evidence-source">Anthropic Research · 2026.11.09</p></details>
+        <a class="story-source" href="https://www.anthropic.com/research/claude-electronics-design" title="Anthropic Research" target="_blank" rel="noopener noreferrer"><span>Anthropic Research</span><span aria-hidden="true">↗</span></a>
+        <span class="story-date"><span class="meta-full">發布 </span><time datetime="2026-11-09T00:00:00+00:00">2026.11.09</time></span>
+      </footer>
+    </article><article class="story lead-story" id="story-84ec87286cb35a64f463">
+      <div class="story-kicker"><span>模型與產品</span><span class="tag essential">本期必讀</span></div>
+      <h3>IBM Granite推出採用LLMON結構化格式的預覽模型</h3><p class="original-title" lang="en">LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B</p>
       <div class="claim-text"><p>IBM Granite團隊發布兩個實驗性預覽模型，訓練其讀寫LLMON標記文字。</p><p>團隊表示，在OPI基準測試中，LLMON模型相較最佳前沿模型可多避免47%的攻擊。</p></div>
-      <aside class="why"><strong>為何入選</strong><p>這是推論：推論：把指令、資料與要求明確分離，可能成為降低間接提示注入風險的模型介面設計方向。</p></aside>
-      <p class="takeaway" lang="en"><span>EN /</span> IBM Granite previews LLMON models designed to separate instructions from data.</p>
-      <details><summary>證據與限制</summary><p>來源為模型發布方文章；測試聚焦靜態間接提示注入，文章也表示自適應攻擊仍在改進，結果未代表所有攻擊情境。</p><p class="evidence-label">已擷取網頁文字 · 發布者主張</p><blockquote>two experimental preview models</blockquote><blockquote>avoiding 47% more attacks</blockquote></details>
-      <footer class="source-line"><a href="https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite" target="_blank" rel="noopener noreferrer">Hugging Face Blog ↗</a><span>發布 2026.11.13</span></footer>
-    </article><article class="story lead-story" data-topic="agents" data-search="workday以langgraph與langsmith建立企業級ai代理平臺 how workday built an enterprise-scale ai agent platform with langgraph and langsmith workday built an internal agent platform emphasizing orchestration, governance, and observability. agent 與開發 langchain blog" id="story-7c8506fea817bcb6cf08">
-      <div class="story-kicker"><span class="story-number">03</span><span>Agent 與開發</span><span class="tag essential">本期必讀</span></div>
-      <h2>Workday以LangGraph與LangSmith建立企業級AI代理平臺</h2><p class="original-title" lang="en">How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith</p>
+      <aside class="why"><strong>為何入選</strong><p>這是推論：把指令、資料與要求明確分離，可能成為降低間接提示注入風險的模型介面設計方向。</p></aside>
+      <p class="takeaway" lang="en">IBM Granite previews LLMON models designed to separate instructions from data.</p>
+      <footer class="source-line">
+        <details class="story-evidence"><summary aria-label="證據與限制">證據<span class="meta-full">與限制</span></summary>
+        <p>來源為模型發布方文章；測試聚焦靜態間接提示注入，文章也表示自適應攻擊仍在改進，結果未代表所有攻擊情境。</p><p class="evidence-label">已擷取網頁文字 · 發布者主張</p><blockquote cite="https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite">two experimental preview models</blockquote><blockquote cite="https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite">avoiding 47% more attacks</blockquote>
+        <p class="evidence-source">Hugging Face Blog · 2026.11.13</p></details>
+        <a class="story-source" href="https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite" title="Hugging Face Blog" target="_blank" rel="noopener noreferrer"><span>Hugging Face Blog</span><span aria-hidden="true">↗</span></a>
+        <span class="story-date"><span class="meta-full">發布 </span><time datetime="2026-11-12T19:07:35+00:00">2026.11.13</time></span>
+      </footer>
+    </article><article class="story lead-story" id="story-7c8506fea817bcb6cf08">
+      <div class="story-kicker"><span>Agent 與開發</span><span class="tag essential">本期必讀</span></div>
+      <h3>Workday以LangGraph與LangSmith建立企業級AI代理平臺</h3><p class="original-title" lang="en">How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith</p>
       <div class="claim-text"><p>LangChain表示，Workday的新平臺可讓團隊在不到一天內於預備環境運行代理原型。</p><p>Workday建立代理治理層，控制代理可存取的API。</p></div>
-      <aside class="why"><strong>為何入選</strong><p>這是推論：推論：案例顯示企業代理導入的關鍵不只在模型，也包括治理、權限、評測與可觀測性基礎設施。</p></aside>
-      <p class="takeaway" lang="en"><span>EN /</span> Workday built an internal agent platform emphasizing orchestration, governance, and observability.</p>
-      <details><summary>證據與限制</summary><p>這是LangChain發布的Workday案例研究，成效與時間比較屬參與方陳述；未提供獨立評估、成本資料或跨組織可重現性分析。</p><p class="evidence-label">已擷取網頁文字 · 發布者主張</p><blockquote>under a day</blockquote><blockquote>controls which APIs</blockquote></details>
-      <footer class="source-line"><a href="https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith" target="_blank" rel="noopener noreferrer">LangChain Blog ↗</a><span>發布 2026.11.11</span></footer>
-    </article></section><p id="empty" class="empty" hidden>本期沒有符合條件的文章。</p>
-<section id="archive" class="archive"><div class="section-heading"><h2>歷期報紙</h2><span>THE ARCHIVE</span></div><ol><li><a href="../../issues/issue-1548b72e7cf8984d/index.html"><span>2026.11.18</span><strong>以結構化表示理解大型語言模型推理失敗</strong><small>5 則</small></a></li><li><a href="../../issues/issue-342d6b24ca037172/index.html"><span>2026.11.16</span><strong>Anthropic測試Claude進行真實電子硬體設計</strong><small>3 則</small></a></li><li><a href="../../issues/issue-f36139daa19f6c95/index.html"><span>2026.11.13</span><strong>大型語言模型疼痛管理偏差審計：未發現顯著差異，但仍須注意不確定性</strong><small>6 則</small></a></li><li><a href="../../issues/issue-fa1ba8828e40ee83/index.html"><span>2026.11.11</span><strong>可追溯證據的臨床推理基準揭示模型限制</strong><small>8 則</small></a></li><li><a href="../../issues/issue-63ee9eb98093991f/index.html"><span>2026.11.09</span><strong>LLM代理授權漂移：多步工具使用可能越界</strong><small>3 則</small></a></li><li><a href="../../issues/issue-b9c5dd594de4fddd/index.html"><span>2026.11.07</span><strong>GPT-6 Cyber：漏洞研究能力提升，評測結果須連同授權範圍閱讀</strong><small>10 則</small></a></li><li><a href="../../issues/issue-d41582dafcc8df37/index.html"><span>2026.11.07</span><strong>Anthropic公布可驗證推論研究進展</strong><small>7 則</small></a></li><li><a href="../../issues/issue-7452344c1f4f3ecd/index.html"><span>2026.11.07</span><strong>GPT-6 Cyber：漏洞研究能力提升，評測結果須連同授權範圍閱讀</strong><small>5 則</small></a></li></ol></section>
-<section id="about" class="about"><p class="eyebrow">EDITORIAL NOTE</p><h2>每一則，保留來源與限制。</h2><p>本期由 AI 核對證據與摘要，未經逐則人工審閱。</p><p>每期以 10 則為目標；不足時不湊數、不捏造文章。可納入具實質資訊的新聞稿，廠商宣稱標示為發布者主張。</p><p>以研究、開發與安全決策為選題依據。發布者主張、預印本與閱讀範圍會分別標示；分析段落標為推論。摘要經 AI 協助整理，仍須核對原文，無法保證完全無誤。</p><p>發現內容錯誤時，會於後續期刊標示更正與追蹤。未確認日期不推算為事實。</p></section></main>
-<footer class="paper-footer"><strong>AI 技術觀測報</strong><span>原始內容與權利屬各來源；本站提供摘要、分析與原文連結。</span><a href="#latest">回到本期 ↑</a></footer></div></body></html>
+      <aside class="why"><strong>為何入選</strong><p>這是推論：案例顯示企業代理導入的關鍵不只在模型，也包括治理、權限、評測與可觀測性基礎設施。</p></aside>
+      <p class="takeaway" lang="en">Workday built an internal agent platform emphasizing orchestration, governance, and observability.</p>
+      <footer class="source-line">
+        <details class="story-evidence"><summary aria-label="證據與限制">證據<span class="meta-full">與限制</span></summary>
+        <p>這是LangChain發布的Workday案例研究，成效與時間比較屬參與方陳述；未提供獨立評估、成本資料或跨組織可重現性分析。</p><p class="evidence-label">已擷取網頁文字 · 發布者主張</p><blockquote cite="https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith">under a day</blockquote><blockquote cite="https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith">controls which APIs</blockquote>
+        <p class="evidence-source">LangChain Blog · 2026.11.11</p></details>
+        <a class="story-source" href="https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith" title="LangChain Blog" target="_blank" rel="noopener noreferrer"><span>LangChain Blog</span><span aria-hidden="true">↗</span></a>
+        <span class="story-date"><span class="meta-full">發布 </span><time datetime="2026-11-10T16:00:00+00:00">2026.11.11</time></span>
+      </footer>
+    </article></div></section></main>
+<footer class="paper-footer"><a href="#latest">回到本期 ↑</a></footer></div></body></html>
